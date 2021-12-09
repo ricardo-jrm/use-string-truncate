@@ -1,18 +1,33 @@
 import React from 'react';
+import { useStringTruncate } from '.';
 
 /**
- * Exported component
+ * Truncates string to fit within given length with appended ellipsis. Option to keep last word.
  */
-export const Component = ({ text }: ComponentProps) => (
-  <div data-testid="test-component">{text}</div>
+export const TruncateString = ({
+  str,
+  length,
+  keepLastWord,
+}: TruncateStringProps) => (
+  <div data-testid="str-trc">
+    {useStringTruncate(str, length, keepLastWord)}
+  </div>
 );
 
 /**
- * Exported component props
+ * Exported TruncateString props
  */
-export interface ComponentProps {
+export interface TruncateStringProps {
   /**
-   * Prop
+   * String to transform
    */
-  text: string;
+  str: string;
+  /**
+   * Total length of the result
+   */
+  length: number;
+  /**
+   * Option to keep last word in
+   */
+  keepLastWord?: boolean;
 }

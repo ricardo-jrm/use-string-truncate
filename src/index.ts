@@ -1,3 +1,3 @@
-export { Component } from './component';
+export { TruncateString } from './component';
 
-export { useHook } from './hook';
+export { useStringTruncate } from './hook';

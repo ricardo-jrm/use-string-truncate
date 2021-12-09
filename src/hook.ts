@@ -1,11 +1,15 @@
-import { Dispatch, SetStateAction, useState } from 'react';
+import { useMemo } from 'react';
+import { stringTruncate } from '@ricardo-jrm/string-truncate';
 
 /**
- * Exported Hook
+ * Truncates string to fit within given length with appended ellipsis. Option to keep last word.
  */
-export const useHook = <T>(
-  initialValue: T,
-): (T | Dispatch<SetStateAction<T>>)[] => {
-  const [state, stateSet] = useState<T>(initialValue);
-  return [state, stateSet];
-};
+export const useStringTruncate = (
+  str: string,
+  length: number,
+  keepLastWord?: boolean,
+): string =>
+  useMemo(
+    () => stringTruncate(str, length, keepLastWord),
+    [str, length, keepLastWord],
+  );
