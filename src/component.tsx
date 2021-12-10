@@ -14,6 +14,8 @@ export const TruncateString = ({
   </div>
 );
 
+console.log('wara');
+
 /**
  * Exported TruncateString props
  */
