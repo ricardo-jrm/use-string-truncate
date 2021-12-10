@@ -1,7 +1,7 @@
 {
   "name": "@ricardo-jrm/use-string-truncate",
   "description": "Truncate strings with React",
-  "version": "0.0.3-development",
+  "version": "0.0.6-development",
   "main": "dist/index.min.js",
   "types": "dist/index.d.ts",
   "private": false,
@@ -32,8 +32,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "build:tsc-files": "tsc-files --noEmit",
-    "bundle": "webpack",
+    "compile:noemit": "tsc-files --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prettier:fix": "prettier --write --ignore-unknown .",
