@@ -9,9 +9,9 @@ export const TruncateString = ({
   length,
   keepLastWord,
 }: TruncateStringProps) => (
-  <div data-testid="str-trc">
+  <span data-testid="str-trc">
     {useStringTruncate(str, length, keepLastWord)}
-  </div>
+  </span>
 );
 
 /**
