@@ -90,7 +90,7 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
-    "@ricardo-jrm/string-truncate": "^2.0.6",
+    "@ricardo-jrm/string-truncate": "^3.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
