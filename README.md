@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🟣 `@ricardo-jrm/use-string-truncate`
+# 🌘 `@ricardo-jrm/use-string-truncate`
 
 <b>Truncate strings with React</b>
 
