@@ -2,7 +2,7 @@
 
 # 🟣 `@ricardo-jrm/use-string-truncate`
 
-<b>React Module Boilerplate</b>
+<b>Truncate strings with React</b>
 
 ![build](https://img.shields.io/github/workflow/status/ricardo-jrm/use-string-truncate/Continuous%20Integration?style=for-the-badge)
 ![license](https://img.shields.io/github/license/ricardo-jrm/use-string-truncate?style=for-the-badge)
