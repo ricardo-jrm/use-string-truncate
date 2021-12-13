@@ -1,8 +1,8 @@
 {
   "name": "@ricardo-jrm/use-string-truncate",
   "description": "Truncate strings with React",
-  "version": "0.0.6-development",
-  "main": "dist/index.min.js",
+  "version": "0.0.7-development",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
