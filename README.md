@@ -36,8 +36,8 @@ yarn add @ricardo-jrm/use-string-truncate
 ```ts
 import { useStringTruncate } from '@ricardo-jrm/use-string-truncate';
 
-export const StringTruncate = ({ str: string, allWords?: boolean }) => (
-  <span>{useStringTruncate(str, allWords)}</span>
+export const StringTruncate = ({ str: string, keepLastWord?: boolean }) => (
+  <span>{useStringTruncate(str, keepLastWord)}</span>
 );
 
 <StringTruncate str="Lorem ipsum dolor sit amet" />
