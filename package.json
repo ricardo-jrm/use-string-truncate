@@ -1,21 +1,21 @@
 {
-  "name": "@ricardo-jrm/use-string-truncate",
+  "name": "@ricardojrmcom/use-string-truncate",
   "description": "Truncate strings with React",
-  "version": "0.0.7-development",
+  "version": "0.0.8-development",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardo-jrm/use-string-truncate.git"
+    "url": "https://github.com/ricardojrmcom/use-string-truncate.git"
   },
   "author": {
     "name": "Ricardo Mota",
-    "url": "https://github.com/ricardo-jrm"
+    "url": "https://github.com/ricardojrmcom"
   },
-  "homepage": "https://github.com/ricardo-jrm/use-string-truncate#readme",
+  "homepage": "https://github.com/ricardojrmcom/use-string-truncate#readme",
   "bugs": {
-    "url": "https://github.com/ricardo-jrm/use-string-truncate/issues"
+    "url": "https://github.com/ricardojrmcom/use-string-truncate/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -91,7 +91,7 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
-    "@ricardo-jrm/string-truncate": "^3.0.1",
+    "@ricardojrmcom/string-truncate": "^3.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

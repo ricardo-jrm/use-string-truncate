@@ -73,6 +73,7 @@
     "comma-spacing": 0,
     "@typescript-eslint/no-inferrable-types": "warn",
     "comma-dangle": 0,
-    "function-paren-newline": 0
+    "function-paren-newline": 0,
+    "react/require-default-props": 0
   }
 }

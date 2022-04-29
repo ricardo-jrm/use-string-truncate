@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { stringTruncate } from '@ricardo-jrm/string-truncate';
+import { stringTruncate } from '@ricardojrmcom/string-truncate';
 
 /**
  * Truncates string to fit within given length with appended ellipsis. Option to keep last word.
